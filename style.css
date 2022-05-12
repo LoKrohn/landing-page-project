@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roberto Mono', monospace;
+}
+
 body { 
     background-color: rgba(69, 80, 94, 0.521);
 }
@@ -10,13 +14,10 @@ a {
     color: white;
 }
 
-.top {
-    font-family: 'Roberto Mono', monospace;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .header .left {
@@ -35,23 +36,46 @@ a {
 .top {
     background-size: cover;
     background-image: url("peregrine1.jpg");
-    height: 40vw;
+    border-radius: 15px;
+    height: 45vw;
 }
 
 .opener {
     display:flex;
+    align-items:flex-start;
 }
 
 .opener .left {
-    width:150vw;
+    width:140vw;
 }
 
 .opener h1 {
     color: white;
     font-size: 3vw;
+    font-weight: bolder;
 }
 
 .opener h2 {
-    color: rgb(248, 235, 211);
+    color: #a4a4a4;
     font-size: 2vw;
+}
+
+.middlebar {
+    display:flex;
+    flex-direction: column;
+    background-color: #332c1fb0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    color: #e2d6c4d2;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.middlebar img {
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
