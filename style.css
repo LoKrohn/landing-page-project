@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Roberto Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .left {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.header .right {
+    display: flex;
+    font-size: 12px;
+    gap: 12px;
+}
