@@ -1,13 +1,20 @@
+body { 
+    background-color: rgba(69, 80, 94, 0.521);
+}
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.top {
+    font-family: 'Roberto Mono', monospace;
 }
 
 .header {
-    font-family: 'Roberto Mono', monospace;
     display: flex;
     justify-content: space-between;
 }
@@ -23,4 +30,28 @@ a {
     display: flex;
     font-size: 12px;
     gap: 12px;
+}
+
+.top {
+    background-size: cover;
+    background-image: url("peregrine1.jpg");
+    height: 40vw;
+}
+
+.opener {
+    display:flex;
+}
+
+.opener .left {
+    width:150vw;
+}
+
+.opener h1 {
+    color: white;
+    font-size: 3vw;
+}
+
+.opener h2 {
+    color: rgb(248, 235, 211);
+    font-size: 2vw;
 }
