@@ -14,10 +14,14 @@ a {
     color: white;
 }
 
+button {
+    border-radius: 50%;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 15px 0px;
 }
 
 .header .left {
@@ -56,7 +60,7 @@ a {
 }
 
 .opener h2 {
-    color: #a4a4a4;
+    color: #808080;
     font-size: 2vw;
 }
 
@@ -78,4 +82,38 @@ a {
     width: 150px;
     border-radius: 15px;
     margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    gap: 8vw;
+    font-size: 14px;
+}
+
+.quotebar {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.quotebar .quote,
+.quotebar .credit {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.quotebar .quote {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.quotebar .credit{
+    padding-right: 30px;
 }
