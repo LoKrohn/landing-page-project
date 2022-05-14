@@ -130,6 +130,16 @@ button {
     border-radius: 20px;
 }
 
+.calltoaction .head {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calltoaction .subtext {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.507);
+}
+
 .calltoaction .right {
     margin-right: 40px;
 }
